@@ -134,8 +134,9 @@ export const BasketModal = ({
           >
             ${totalPrice}
           </span>
+         
         </Typography>
-      </StyledBox>
+         </StyledBox>
     </Modal>
   );
 };

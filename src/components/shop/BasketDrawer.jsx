@@ -1,7 +1,7 @@
 import RemoveCircleTwoToneIcon from "@mui/icons-material/RemoveCircleTwoTone";
 import React, { Fragment, useMemo, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-
+import ModalForm from './ModalForm';
 //mui
 import {
   Button,
@@ -155,6 +155,7 @@ export const BasketDrawer = (props) => {
               </span>
             </Typography>
           </StyledBox>
+          <ModalForm />
         </Drawer>
       </Fragment>
     </div>
